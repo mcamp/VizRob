@@ -1,0 +1,28 @@
+- title: Welcome
+  docs:
+  - home
+  - overview
+
+- title: Getting Started
+  docs:
+  - installation
+  - smach
+  - examples
+
+- title: Help us
+  docs:
+  - contact
+  - contribute
+  - cite
+
+- title: Getting Started
+  docs:
+  - home
+  - themes
+  - customization
+
+- title: Examples
+  docs:
+  - cheatsheet
+  - font-awesome
+  - bootstrap

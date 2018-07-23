@@ -1,9 +1,23 @@
-# VizRob
+# Jekyll Doc Theme
 
-VizRob is a set of visualizations for the execution of nested state machine using execution time and logs produced by the program.
+Go to [the website](https://aksakalli.github.io/jekyll-doc-theme/) for detailed information and demo.
 
-VizRob first conception works with SMACH, a State Machine api for Python: http://wiki.ros.org/smach
-While VizRob is thought to work with other State Machine APIs, for now it only connection is SMACH.
+## Running locally
 
-Currently, GitHub only hosts the issue tracker.
-For the source code and instruction on how to use it, visit: http://smalltalkhub.com/#!/~mcamp/MachineVisualization
+You need Ruby and gem before starting, then:
+
+```bash
+# install bundler
+gem install bundler
+
+# clone the project
+git clone https://github.com/aksakalli/jekyll-doc-theme.git
+cd jekyll-doc-theme
+
+# run jekyll with dependencies
+bundle exec jekyll serve
+```
+
+## License
+
+Released under [the MIT license](LICENSE).
