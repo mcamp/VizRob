@@ -1,34 +1,8 @@
 ---
-title: Welcome
+title: VizRob
 permalink: /docs/home/
 redirect_from: /docs/index.html
 ---
-<!--  
-
-# Welcome
-
-## What is VizRob?
-
-## Visualization Overview
-
-# Getting started
-
-## Instalation
-
-## VizRob & SMACH
-
-## Example
-
-# Help us
-
-## Contact
-
-## Contribute
-
-## Cite us
-
-
--->
 
 ## What is VizRob
 
