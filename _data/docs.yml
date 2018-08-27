@@ -12,16 +12,11 @@
 - title: Help us
   docs:
   - contact
-  - contribute
+  # - contribute
   - cite
 
-- title: Getting Started
-  docs:
-  - themes
-  - customization
-
-- title: Examples
-  docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap
+# - title: Examples
+#   docs:
+#   - cheatsheet
+#   - font-awesome
+#   - bootstrap

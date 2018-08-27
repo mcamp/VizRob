@@ -5,8 +5,8 @@ description: >
   VizRob is a set of visualizations for the execution of nested state machine using execution time and logs produced by the program.
 
 # baseurl: "/jekyll-doc-theme" # the subpath of your site, e.g. /blog/
-# url: https://aksakalli.github.io/jekyll-doc-theme # the base hostname & protocol for your site
-# git_address: https://github.com/aksakalli/jekyll-doc-theme
+url: https://mcamp.github.io/vizrob # the base hostname & protocol for your site
+git_address: https://github.com/mcamp/vizrob
 # git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
 
 # theme options from https://bootswatch.com/
