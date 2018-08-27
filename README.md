@@ -1,23 +1,13 @@
-# Jekyll Doc Theme
+# VizRob
 
-Go to [the website](https://aksakalli.github.io/jekyll-doc-theme/) for detailed information and demo.
+VizRob is a set of visualizations for the execution of nested state machine using execution time and logs produced by the program. 
 
-## Running locally
+For more information about VizRob, visit: <https://mcamp.github.io/VizRob/>
 
-You need Ruby and gem before starting, then:
+Currently, GitHub only hosts the issue tracker.
+For the source code and instruction on how to use it, visit: http://smalltalkhub.com/#!/~mcamp/MachineVisualization
 
-```bash
-# install bundler
-gem install bundler
 
-# clone the project
-git clone https://github.com/aksakalli/jekyll-doc-theme.git
-cd jekyll-doc-theme
+## Acknowledgments 
 
-# run jekyll with dependencies
-bundle exec jekyll serve
-```
-
-## License
-
-Released under [the MIT license](LICENSE).
+For the webpage, we use the following Jekyll theme: [https://aksakalli.github.io/jekyll-doc-theme/](https://aksakalli.github.io/jekyll-doc-theme/) 
