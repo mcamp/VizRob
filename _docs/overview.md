@@ -15,7 +15,7 @@ With this, you won't miss any details of what your robot is doing!
 
 ## Static View
 
-The static view visualization represents the machine as a graph. Nodes represent states and directed edges are their transitions. A green border around a state indicates the presence of a nested machine. The machine name is located on the top-left corner.
+The static view visualization represents the machine as a graph. Nodes represent states and directed edges are their transitions. A green border around a state indicates the presence of a nested machine.
 
 ![Static View]({{ "/img/vizrob/static.png" | absolute_url }} "Static View")
 
@@ -25,6 +25,8 @@ The types of logs visualization associates states to the severity of anomalies f
 
 In this visualization, states are yellow when there is at least one warning log in a state. States with at least one error log are red. When there are warnings and errors logs in the state, red has priority over the yellow. The default color for no warning or error log is gray.
 
+In this example you see at least three important states, which one should we analyze first?
+
 ![Type of Logs]({{ "/img/vizrob/typeLogs.png" | absolute_url }} "Type of Logs")
 
 
@@ -33,11 +35,14 @@ In this visualization, states are yellow when there is at least one warning log 
 In this visualization, the number of log errors emitted from the execution of a state is linearly mapped to a gray-to-red fading. 
 A red box indicates the state that emitted the largest number of error logs, while a gray state is the state with the least number of error logs.
 
+Now we notice the small red state has more errors rather than the big red state, we have to analyze it!
+
 ![Error Logs]({{ "/img/vizrob/errorLogs.png" | absolute_url }} "Error Logs")
 
 ## Coverage
 
 The coverage visualization only shows states that were executed in the behavior.
+As you can see, the robot executed just few states.
 
 ![Coverage]({{ "/img/vizrob/coverage.png" | absolute_url }} "Coverage")
 
@@ -45,6 +50,8 @@ The coverage visualization only shows states that were executed in the behavior.
 
 The frequency visualization represents the number of times a state is executed using a white-to-black fading.
 A state is colored black if has many executions and it is colored light-gray with very few executions.
+
+Did you notice the black states are the same from the coverage visualization?
 
 ![Frequency]({{ "/img/vizrob/frequency.png" | absolute_url }} "Frequency")
 
@@ -56,5 +63,7 @@ The list of logs offers the classical navigation and filtering options found in 
 VizRob also offers a visualization of the sources where logs are produced.
 The source of a log is represented by the line of code in the program where the log is produced.
 This visualization is similar to the log visualization.
+
+Here there are a lot of *info* logs, maybe we should filter them from the visualization to see the warning and error logs?
 
 ![Log]({{ "/img/vizrob/log.png" | absolute_url }} "Log")
