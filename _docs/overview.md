@@ -64,6 +64,6 @@ VizRob also offers a visualization of the sources where logs are produced.
 The source of a log is represented by the line of code in the program where the log is produced.
 This visualization is similar to the log visualization.
 
-Here there are a lot of *info* logs, maybe we should filter them from the visualization to see the warning and error logs?
+Here there are a lot of *info* logs, maybe we should filter them from the visualization to see the *warning* and *error* logs?
 
 ![Log]({{ "/img/vizrob/log.png" | absolute_url }} "Log")
