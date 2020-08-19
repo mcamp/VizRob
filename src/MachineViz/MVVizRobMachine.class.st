@@ -630,7 +630,7 @@ MVVizRobMachine >> selectedBorder: aRTElement [
 MVVizRobMachine >> showAllStatesOnView: aView [
 
 	| nonExecutedStates  |
-	nonExecutedStates := self updater rootMachine allNonExecutedStates.
+	nonExecutedStates := self currentMachineViz allNonExecutedStates.
 	aView elements 
 		select: [ :e| 
 			e model class = MVState and:[
@@ -657,7 +657,7 @@ MVVizRobMachine >> showAllStatesOnView: aView [
 MVVizRobMachine >> showExecutedStatesOnView: aView [
 
 	| nonExecutedStates |
-	nonExecutedStates := self updater rootMachine allNonExecutedStates.
+	nonExecutedStates := self currentMachineViz allNonExecutedStates.
 	aView elements 
 		select: [ :e| 
 			e model class = MVState and:[nonExecutedStates includes: e model]]
